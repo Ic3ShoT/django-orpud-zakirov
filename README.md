@@ -1,2 +1,2 @@
-# django-orpud-zakirov
+Учебный проект для ЦК с использованием Django.
  
