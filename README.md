@@ -1,0 +1,2 @@
+# django-orpud-zakirov
+ 
