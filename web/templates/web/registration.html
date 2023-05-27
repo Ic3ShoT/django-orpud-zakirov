@@ -1,20 +1,13 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <title>Регистрация</title>
-</head>
-<body>
-    <h1>Регистрация</h1>
+{% extends 'web/base.html' %}
+{% block content %}
+    <h2>Регистрация</h2>
     {% if is_success %}
-        <p><b>Спасибо за регистрацию</b></p>
+        <p><b>Спасибо за регистрацию!</b></p>
     {% else %}
         <form action="" method="post">
             {% csrf_token %}
-            {{ form.as_p}}
-            <button>
-                Зарегистрироваться
-            </button>
+            {{ form.as_p }}
+            <button>Зарегистрироваться</button>
         </form>
     {% endif %}
-</body>
-</html>
+{% endblock %}
