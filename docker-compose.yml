@@ -6,9 +6,9 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_DB: timetracker
-      POSTGRES_USER: timetracker
-      POSTGRES_PASSWORD: timetracker
+      POSTGRES_DB: todoapp
+      POSTGRES_USER: todoapp
+      POSTGRES_PASSWORD: todoapp
     volumes:
       - "db:/var/lib/postgresql/data"
 

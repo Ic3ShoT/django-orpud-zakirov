@@ -2,7 +2,7 @@ import uuid
 
 from django.db import connection
 
-from timetracker.redis import get_redis_client
+from todoapp.redis import get_redis_client
 
 
 def print_queries(queries):

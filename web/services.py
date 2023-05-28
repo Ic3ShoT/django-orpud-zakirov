@@ -1,6 +1,6 @@
 import csv
 
-from timetracker.redis import get_redis_client
+from todoapp.redis import get_redis_client
 from web.models import TimeSlot, TimeSlotTag
 
 
