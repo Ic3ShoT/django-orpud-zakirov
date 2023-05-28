@@ -12,4 +12,4 @@
 - `python manage.py migrate` - примененить миграции
 - `python manage.py runserver` - запустить сервер для разработки на http://127.0.0.1:8000
 
-&copy; 2023 [Артур Атнагулов](https://atnartur.dev)
+
